@@ -1,0 +1,23 @@
+EJS == Embeded Javascript Templating, ejs.co
+
+<% Javascript code %>
+
+Example:
+<body>
+
+    <% if (kindOfDay === "Saturday" || kindOfDay === "Sunday"){ %>
+        <h1 style="color: purple"> It's a
+            <%= kindOfDay %> To Do List
+        </h1>
+        <% } else { %>
+            <h1 style="color: blue"> It's a
+                <%= kindOfDay %> To Do List
+            </h1>
+            <% } %>
+
+</body>
+
+
+
+
+<%= variable to be passed to server%>
